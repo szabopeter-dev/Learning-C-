@@ -40,36 +40,44 @@ int main() //fugveny kell return de a mainnel nem
 
 	// Egész típusok C++11 óta
 	//int8_t a;
-	//uint8_t b;
-	//size_t c; //meret indexelo altalaban
+	////uint8_t b;
+	////size_t c; //meret indexelo altalaban
 
-	//lebegõpontos típusok
-	float f = 3.14;
-	double d = 3.14;
+	////lebegõpontos típusok
+	//float f = 3.14;
+	//double d = 3.14;
 
-	//logikai típus
-	bool baba = true; //false
+	////logikai típus
+	//bool baba = true; //false
 
-	baba = 56;
+	//baba = 56;
 
-	
-	/*int n = 10;
-	while (n--)
-	{
-		std::cout << n << std::endl;
-	}*/
-	int a = 10;
+	//
+	///*int n = 10;
+	//while (n--)
+	//{
+	//	std::cout << n << std::endl;
+	//}*/
+	////int a = 10;
 
-	while (std::cin >> a, a)
-	{
-		std::cout << a << std::endl;
-	}
+	///*while (std::cin >> a, a)
+	//{
+	//	std::cout << a << std::endl;
+	//}*/
 
-	//// referencia típus
+	////// referencia típus
+	////int a = 5;
+	////int& b = a;
+
+	//const int b = 5;
+	//
+
+	////Pointerek
 	//int a = 5;
-	//int& b = a;
+	//std::cout << "a értéke: " << a << "a címe: " << &a << std::endl;
 
-	const int b = 5;
-	
+	//const int b = 4;
+	//const int* pb = &b;
+
 }
 

@@ -3,8 +3,14 @@
 // 1 cpp állományt fordítunk le
 //      1. Precompile
 //          - #kezdeû sorokat értelmezi és végrehajtja
+//          -szintaktikai ellenõrzés (fentrõl - lefelé)
 //      2. Compile
+//          -lefordítja a kíbõvített cpp állományt
+//          - => object fájlt állít elõ
 //II. Linkelés
+//              -Minden cpp állomány önállóan lefordítható
+//              - *.cpp => *.o
+//              -Object állománokat össze kell linkelni => .exe
 
 
 #include <iostream>
